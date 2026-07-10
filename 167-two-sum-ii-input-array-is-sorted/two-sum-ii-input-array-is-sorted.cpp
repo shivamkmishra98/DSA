@@ -6,7 +6,7 @@ public:
             int sum = numbers[left] + numbers[right];
 
             if(sum == target){
-                return {left+1,right+1};
+                return{left+1,right+1};
             }
             else if(sum < target){
                 left++;
